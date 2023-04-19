@@ -37,6 +37,6 @@ def predict():
                                result = 'The patient is likely to have heart disease!')
 
 if __name__ == '__main__':
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+ http_server = WSGIServer(('', 5000), app)
+ http_server.serve_forever()
     
