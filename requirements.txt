@@ -5,3 +5,4 @@ pickle4
 scikit-learn
 matplotlib
 gevent
+gunicorn
