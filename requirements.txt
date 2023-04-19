@@ -2,5 +2,5 @@ Flask
 numpy
 pandas
 pickle4
-sklearn
+scikit-learn
 matplotlib
