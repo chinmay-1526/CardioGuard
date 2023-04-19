@@ -37,5 +37,5 @@ def predict():
                                result = 'The patient is likely to have heart disease!')
 
 if __name__ == '__main__':
-        app.run()
+    app.run()
     
