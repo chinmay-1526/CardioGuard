@@ -37,6 +37,5 @@ def predict():
                                result = 'The patient is likely to have heart disease!')
 
 if __name__ == '__main__':
- http_server = WSGIServer(('', 5000), app)
- http_server.serve_forever()
+        app.run()
     
